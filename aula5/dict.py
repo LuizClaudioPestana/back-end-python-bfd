@@ -1,7 +1,9 @@
 lista_alunos = {"nome": "Luiz",
                 "idade": 30,
-                "endereco": "Olinda",
+                "endereco": ["Olinda", "268", "Peixinhos"],
                 "turmas": ("turma 34", "turma 35")}
 
-for i in lista_alunos:
-    print(i)
+for k, v in lista_alunos.items():
+    print(f"{k} : {v}")
+
+print(lista_alunos["endereco"][0])
