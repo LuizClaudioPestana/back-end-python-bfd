@@ -3,9 +3,7 @@ def media(*args):
     contador = 0
     for num in args:
         soma_total = soma_total + num
-        contador = num + 1
-        m = soma_total / contador
-        print(contador)
-        return m
+        contador = contador + 1
+    return soma_total / contador
 
 print(media(3, 5, 7))
