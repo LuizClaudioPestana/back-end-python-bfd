@@ -25,3 +25,7 @@ class Relatorio(Imprimivel, Exportavel):
         
     def exportar(self):
         print('O relatório está exportando...')
+        
+faturamento_mensal = Relatorio()
+faturamento_mensal.imprimir()
+faturamento_mensal.exportar()
