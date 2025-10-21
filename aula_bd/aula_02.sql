@@ -1,1 +1,1 @@
-SELECT 22;
+.tables
