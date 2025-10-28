@@ -17,3 +17,5 @@ FROM Curso;
 #AVG Mostre a média geral da nota2 dos alunos. Utilize a função AVG.
 SELECT AVG(nota2) AS media_nota2
 FROM Aluno;
+
+SELECT * FROM Turma;
